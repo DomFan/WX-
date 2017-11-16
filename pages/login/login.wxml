@@ -1,0 +1,18 @@
+<!--pages/login/login.wxml-->
+<view class='container'>
+  <text class='titletxt'>移动支付管理平台</text>
+  <form bindsubmit='loginsubmit' bindreset='formreset' class='form'>
+    <input name='nameInput' class='items account' bindinput='nameInput' placeholder='请输入您的用户名' />
+    <input name='pswdInput' class='items password' password bindinput='pswdInput' placeholder='请输入您的密码' />
+    <view class='wrap items'>
+      <label>
+        <switch name='rmpwd' type='checkbox' bindchange='rmpwd' />记住密码
+      </label>
+      <label>
+        <switch name='holdon' type='checkbox' bindchange='holdon' />保持登录
+      </label>
+    </view>
+    <button type='primary' class='loginbtn items' formType="submit" bindtap='loginbtn'>登录</button>
+    <button class='resetbtn items' formType="reset" bindtap='resetbtn'>重置</button>
+  </form>
+</view>

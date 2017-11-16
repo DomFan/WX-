@@ -1,0 +1,68 @@
+/* pages/login/login.wxss */
+page {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  background-color: lightskyblue;
+
+}
+.titletxt {
+  font-size: 60rpx;
+  color: #fff;
+}
+.form {
+  box-sizing: border-box;
+  padding: 30rpx;
+  background-color: #fff;
+  width: 80%;
+  height: 80%;
+  border-radius: 4%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form input {
+  width: 80%;
+  border-bottom: 1px solid #ccc;
+  margin-left: 10%;
+}
+.form button {
+  width: 90%;
+}
+.items {
+  margin-bottom: 35rpx;
+  line-height: 80rpx;
+}
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.wrap label {
+  margin-right: 10rpx;
+  font-size: 30rpx;
+}
+
+.loginbtn {
+  background-color: blue
+}
+
+/* .account, .password{
+  position: relative;
+  padding-left: 150rpx;
+}
+.account:before {
+    content: '账号';
+    position: absolute;
+    top: 0rpx;
+    left: 20rpx;
+}
+
+.password:before {
+    content: '密码';
+    position: absolute;
+    top: 0rpx;    
+    left: 20rpx;
+} */

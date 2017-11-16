@@ -1,0 +1,79 @@
+<!-- info.wxml -->
+
+<view class='container'>
+  <form bindsubmit='formSubmit'>
+    <view class='row-container'>
+      <text>商户名称</text>
+      <input name='sellerInput' type='text' bindinput='nameinput' placeholder='请输入商户名称'></input>
+    </view>
+    <view class='row-container'>
+      <text>商户地址</text>
+      <input name='addressInput' type='text' bindinput='addressinput' placeholder='请输入商户地址'></input>
+    </view>
+    <view class='row-container'>
+      <text>联系人</text>
+      <input name='personInput' type='text' bindinput='personinput' placeholder='请输入商户联系人' />
+    </view>
+    <view class='row-container'>
+    <!-- 登录之后能不能跳转到后台接口 测试 避开 -->
+      <text>电话</text>
+      <input name='phoneInput' type='number' bindinput='phoneinput' placeholder='请输入联系方式'></input>
+    </view>
+
+    <view class='row-container'></view>
+
+    <view class='row-container'>
+      <text>营业执照</text>
+      <button type='default' bindtap='uploadpic0'>上传</button>
+      <button type='mini' bindtap='lookpic0'>预览</button>
+    </view>
+    <view class='row-container'>
+      <text>组织代码证</text>
+      <button type='default' bindtap='uploadpic1'>上传</button>
+      <button type='mini' bindtap='lookpic1'>预览</button>
+    </view>
+    <view class='row-container'>
+      <text>法人持证件照</text>
+      <button type='default' bindtap='uploadpic2'>上传</button>
+      <button type='mini' bindtap='lookpic2'>预览</button>
+    </view>
+    <view class='row-container'>
+      <text>身份证正面</text>
+      <button type='default' bindtap='uploadpic3'>上传</button>
+      <button type='mini' bindtap='lookpic3'>预览</button>
+    </view>
+    <view class='row-container'>
+      <text>身份证反面</text>
+      <button type='default' bindtap='uploadpic4'>上传</button>
+      <button type='mini' bindtap='lookpic4'>预览</button>
+    </view>
+    <view class='row-container'>
+      <text>特殊资质一</text>
+      <button type='default' bindtap='uploadpic5'>上传</button>
+      <button type='mini' bindtap='lookpic5'>预览</button>
+    </view>
+    <view class='row-container'>
+      <text>特殊资质二</text>
+      <button type='default' bindtap='uploadpic6'>上传</button>
+      <button type='mini' bindtap='lookpic6'>预览</button>
+    </view>
+    <view class='row-container'>
+      <text>特殊资质三</text>
+      <button type='default' bindtap='uploadpic7'>上传</button>
+      <button type='mini' bindtap='lookpic7'>预览</button>
+    </view>
+    <view class='row-container'>
+      <text>特殊资质四</text>
+     <button type='default' bindtap='uploadpic8'>上传</button>
+      <button type='mini' bindtap='lookpic8'>预览</button>
+    </view>
+    <view class='row-container'>
+      <text>特殊资质五</text>
+      <button type='default' bindtap='uploadpic9'>上传</button>
+      <button type='mini' bindtap='lookpic9'>预览</button>
+    </view>
+    <button form-type='submit' type='primary' class='confirmAdd' bindtap='submitcfm'>确认新增</button>
+  </form>
+
+
+</view>

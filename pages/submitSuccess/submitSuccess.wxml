@@ -1,0 +1,5 @@
+<!--pages/submitSuccess/submitSuccess.wxml-->
+<view class='container'>
+  <text class='item txt'>添加成功！</text>
+  <button class='item backbtn' type='primary' bindtap='goback'>返回上一页</button>
+</view>
